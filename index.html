@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML Tables</title>
-  </head>
-  <body>
-    <!-- Write your HTML here -->
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Population Table</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .city {
+            font-style: italic;
+            background-color: #d9f2ff;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>City</th>
+            <th>State</th>
+            <th>2017 estimate</th>
+        </tr>
+        <tr>
+            <td class="city"><i>New York</i></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_New_York.svg/30px-Flag_of_New_York.svg.png" alt="NY Flag"> New York</td>
+            <td>8,622,698</td>
+        </tr>
+        <tr>
+            <td class="city"><i>Los Angeles</i></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/30px-Flag_of_California.svg.png" alt="CA Flag"> California</td>
+            <td>3,999,759</td>
+        </tr>
+        <tr>
+            <td class="city"><i>Chicago</i></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Illinois.svg/30px-Flag_of_Illinois.svg.png" alt="IL Flag"> Illinois</td>
+            <td>2,716,450</td>
+        </tr>
+        <tr>
+            <td class="city"><i>Houston</i></td>
+            <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/30px-Flag_of_Texas.svg.png" alt="TX Flag"> Texas</td>
+            <td>2,312,717</td>
+        </tr>
+    </table>
+
+</body>
 </html>
